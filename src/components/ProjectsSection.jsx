@@ -7,7 +7,7 @@ const projects = [
        id: 1,
         title: 'Aapada Mitra',
         description: 'Building A disaster preparedness and response education system for young minds.', 
-        imageUrl: '/projects/aapada-mitra.png',
+        imageUrl: '/projects/aapadamitra.jpg',
         tags: ['React', 'Node.js', 'Express.js', 'MongoDB'],
         gitHub: 'https://github.com/KanishkaJoshi-20/SIH',
         demoUrl: '#',
