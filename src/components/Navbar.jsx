@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { cn } from '../lib/utils';
 import { Menu, X } from 'lucide-react';
+import ThemeToggle from './ThemeToggle';
 
 const navItems = [
     { name: 'Home', href: '#hero' },
@@ -42,20 +43,33 @@ function Navbar() {
                             className='text-foreground/80 hover:text-primary transition-colors duration-300'
                         >{item.name}</a>
                     ))}
+
+                    <div className="flex items-center">
+                        <ThemeToggle />
+                    </div>
                 </div>
 
 
                 {/* mobile nav */}
-                
-                <button onClick={() => setIsMenuOpen((prev) => !prev)}
-                    className='md:hidden p-2 text-foreground z-50'
-                    aria-label={isMenuOpen ? "Close menu" : "Open menu"}>
-                    {isMenuOpen ? <X size={24} /> : <Menu size={24} />} </button>
+                <div className='flex items-center md:hidden space-x-2'>
+                    {/* keep the theme toggle outside the hamburger */}
+                    <div className="z-50">
+                        <ThemeToggle />
+                    </div>
+
+                    <button onClick={() => setIsMenuOpen((prev) => !prev)}
+                        className='p-2 text-foreground z-50'
+                        aria-label={isMenuOpen ? "Close menu" : "Open menu"}>
+                        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                    </button>
+                </div>
 
                 <div className={cn("fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col justify-center items-center "
                     , "transition-all duration-300 md:hidden",
                     isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
                 )}>
+                    {/* removed the duplicate ThemeToggle inside the overlay so toggle stays outside */}
+
                     <div className='flex flex-col space-y-8 text-xl'>
                         {navItems.map((item) => (
                             <a key={item.name} href={item.href}

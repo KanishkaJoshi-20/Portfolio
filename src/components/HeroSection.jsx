@@ -12,7 +12,7 @@ function HeroSection() {
                     <span className='text-gradient ml-2 opacity-0 animate-fade-in-delay-2'>Joshi</span>
                 </h1>
                 <p className='text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3'>
-                    I turn ideas into beautiful, immersive digital experiences that go far beyond the ordinary.
+                   3rd Year B.E., IT Student, at IET DAVV, Indore - I turn ideas into beautiful, immersive digital experiences that go far beyond the ordinary.
                 </p>
 
                 <div className='opacity-0 pt-4 animate-fade-in-delay-4'>
