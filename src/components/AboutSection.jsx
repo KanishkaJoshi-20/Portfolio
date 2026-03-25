@@ -11,17 +11,17 @@ function AboutSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-4 md:space-y-6">
-            <h3 className="text-xl md:text-2xl font-semibold">Passionate Web Developer & DSA Enthusiast</h3>
+            <h3 className="text-xl md:text-2xl font-semibold">Bridging the Gap Between Theory & Deployment</h3>
             <p className="text-muted-foreground text-sm md:text-base">
-              I’m Kanishka Joshi, a developer who loves building imaginative digital experiences and sharpening problem-solving skills through Data Structures & Algorithms.
+              I’m Kanishka Joshi, a 3rd-year IT student and freelance developer who doesn’t just study code—I live it. I thrive at the intersection of logic and creativity, balancing academic rigor with the fast-paced world of building real-world applications.
             </p>
             <p className="text-muted-foreground text-sm md:text-base">
-              With a strong foundation in HTML, CSS, JavaScript, and MERN Stack. I create responsive, user-friendly websites that bring ideas to life. I’m also passionate about DSA, constantly honing my skills to tackle complex coding challenges efficiently.
+              From launching a full-stack e-commerce platform for my creative brand to leading teams in national hackathons, I treat every project as a chance to refine my craft. I'm currently looking for an internship where I can bring this mix of academic foundation and freelance grit to a professional team.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-3 md:pt-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-3 md:pt-4 justify-center md:justify-start">
               <a href="#contact" className="cosmic-button px-4 py-2">Get In Touch</a>
-              <a href="/KanishkaJoshi(1).pdf" className="px-4 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Download Resume</a>
+              <a href="/KanishkaJoshi(1).pdf" className="px-4 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 text-center">Download Resume</a>
             </div>
           </div>
 
@@ -32,8 +32,8 @@ function AboutSection() {
                   <Code className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-base md:text-lg">Web Development</h4>
-                  <p className="text-sm md:text-base">Passionate Web Developer crafting seamless interfaces and powerful backend solutions</p>
+                  <h4 className="font-semibold text-base md:text-lg">Full-Stack Development</h4>
+                  <p className="text-sm md:text-base text-muted-foreground">Building seamless MERN applications with a focus on clean code and pixel-perfect UI.</p>
                 </div>
               </div>
             </div>
@@ -44,8 +44,8 @@ function AboutSection() {
                   <User className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-base md:text-lg">Backend Engineering</h4>
-                  <p className="text-sm md:text-base">Building secure and scalable backend systems with clean architecture and strong logic.</p>
+                  <h4 className="font-semibold text-base md:text-lg">Freelance Grit</h4>
+                  <p className="text-sm md:text-base text-muted-foreground">Experienced in handling client requirements, deadlines, and end-to-end project deployment.</p>
                 </div>
               </div>
             </div>
@@ -56,8 +56,8 @@ function AboutSection() {
                   <Briefcase className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-base md:text-lg">Database & APIs</h4>
-                  <p className="text-sm md:text-base">Designing efficient databases and developing reliable APIs for modern applications.</p>
+                  <h4 className="font-semibold text-base md:text-lg">Problem Solving</h4>
+                  <p className="text-sm md:text-base text-muted-foreground">Active DSA enthusiast with 150+ problems solved, always optimizing for efficiency.</p>
                 </div>
               </div>
             </div>
