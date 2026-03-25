@@ -18,7 +18,7 @@ function HeroSection() {
                 </h2>
 
                 <p className='text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3 leading-relaxed'>
-                   I bridge the gap between academic excellence at IET DAVV and the fast-paced world of freelance development. I don't just write code; I build **scalable, client-ready digital experiences** that solve real problems.
+                   I bridge the gap between academic excellence at IET DAVV and the fast-paced world of freelance development. I don't just write code; I build scalable, client-ready digital experiences that solve real problems.
                 </p>
 
                 <div className='opacity-0 pt-6 animate-fade-in-delay-4 flex flex-col sm:flex-row gap-4 justify-center'>
